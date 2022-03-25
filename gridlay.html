@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+ <style>
+     *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;lin
+    font-size: 20px;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-gap: 2px;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "sidebar banner banner banner"
+    "sidebar content1 content2 content3"
+    "sidebar footer fpooter footer";
+}
+nav{
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    background-color: aqua;
+    grid-area: footer;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content1{
+    background-color: azure;
+    grid-area: footer;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content2{
+    background-color: rgb(56, 59, 59);
+    grid-area: footer;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content3{
+    background-color: aqua;
+    grid-area: footer;
+    border: 2px solid black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ </style>
+</head>
+<body>
+    <div class="container"></div>
+    <nav>navigation bar</nav>
+    <main>main section</main>
+    <div id="sidebar"> sidebar</div>
+    <div id="content 1"> </div>
+    <div id="content 2"> </div>
+    <div id="content3"> </div>
+    <footer>footer</footer>
+
+</body>
+</html>0000000000000000000000000000
